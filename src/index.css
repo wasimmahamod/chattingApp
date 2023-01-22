@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.audio-recorder{
+    background-color: transparent !important;
+    position: absolute !important;
+    top: 7px !important;
+    right: 70px !important;
+    box-shadow: 0px 0px 0px red !important;
+}
