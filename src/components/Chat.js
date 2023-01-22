@@ -194,7 +194,7 @@ const Chat = () => {
               </div>
               <p className='font-ub text-xm font-normal mt-1 text-[#BFBFBF]'>{moment(item.date, "YYYYMMDD hh:mm").fromNow()}</p>
             </div>)
-            :item.im ?
+            :item.img ?
             (<div>
       <div className='mt-7 ml-5 inline-block  relative'>
       <div className='py-3 px-3 bg-[#21b6af] rounded-lg text-ub text-xl font-semibold text-white w-80 '>
